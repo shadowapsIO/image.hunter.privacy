@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hunter — Privacy Policy & Official Site</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between selection:bg-brand-500 selection:text-white">
+
+    <header class="sticky top-0 z-50 glass-card border-b border-slate-200/80">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-brand-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20">
+                    <i class="fa-solid fa-crosshairs text-lg"></i>
+                </div>
+                <span class="font-bold text-xl tracking-tight text-slate-900">Image Hunter</span>
+            </div>
+            <nav class="flex items-center space-x-6 text-sm font-medium">
+                <a href="#about" class="text-slate-600 hover:text-brand-600 transition">About</a>
+                <a href="#features" class="text-slate-600 hover:text-brand-600 transition">Features</a>
+                <a href="#privacy" class="text-brand-600 font-semibold hover:text-brand-700 transition">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section id="about" class="py-16 sm:py-24 bg-gradient-to-b from-brand-50/60 to-slate-50">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-brand-100 text-brand-700 mb-6">
+                    <i class="fa-solid fa-shield-halved mr-1.5"></i> Chrome Extension Official Page
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+                    Detect & Download Every Image with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-500">Image Hunter</span>
+                </h1>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-8 leading-relaxed">
+                    A fast, lightweight, and completely private browser extension designed to extract, inspect, and bulk-download high-resolution images from any webpage in seconds.
+                </p>
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <a href="#privacy" class="px-6 py-3 rounded-xl bg-brand-600 text-white font-medium shadow-lg shadow-brand-500/30 hover:bg-brand-700 transition duration-200 flex items-center">
+                        <i class="fa-solid fa-file-contract mr-2"></i> Read Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-12 max-w-5xl mx-auto px-4 sm:px-6">
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl glass-card hover:shadow-lg transition duration-200 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-4 text-xl">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Instant Detection</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Scans any active tab to pull all visible and background image assets instantly.</p>
+                </div>
+                <div class="p-6 rounded-2xl glass-card hover:shadow-lg transition duration-200 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-4 text-xl">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">100% Client-Side</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">No external servers. All operations happen entirely within your local browser sandbox.</p>
+                </div>
+                <div class="p-6 rounded-2xl glass-card hover:shadow-lg transition duration-200 border border-slate-200">
+                    <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-4 text-xl">
+                        <i class="fa-solid fa-download"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Bulk Download</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Select multiple images or batch export them effortlessly to your device.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="privacy" class="py-12 max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="bg-white rounded-2xl p-6 sm:p-10 shadow-xl shadow-slate-200/50 border border-slate-200/80">
+                <div class="border-b border-slate-100 pb-6 mb-8 flex items-center justify-between flex-wrap gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">Privacy Policy</h2>
+                        <p class="text-sm text-slate-500 mt-1">Official Privacy Notice for the Image Hunter Chrome Extension</p>
+                    </div>
+                    <span class="text-xs font-semibold px-3 py-1 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-200">
+                        Effective Date: October 2026
+                    </span>
+                </div>
+
+                <div class="space-y-8 text-slate-700 text-sm leading-relaxed">
+                    <!-- Intro -->
+                    <div>
+                        <h3 class="text-base font-semibold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-circle-info text-brand-500 mr-2"></i> Overview
+                        </h3>
+                        <p>
+                            <strong>Image Hunter</strong> ("we", "our", or "the extension") is committed to protecting user privacy. This Privacy Policy explains our practices regarding user data and confirms that our browser extension does not collect, store, or transmit any personally identifiable information or browsing activity.
+                        </p>
+                    </div>
+
+                    <!-- Data Collection -->
+                    <div>
+                        <h3 class="text-base font-semibold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-database text-brand-500 mr-2"></i> Information Collection & Usage
+                        </h3>
+                        <p class="mb-3">
+                            <strong>Image Hunter DOES NOT collect any user data.</strong> Specifically:
+                        </p>
+                        <ul class="list-disc pl-5 space-y-1 text-slate-600">
+                            <li>We do not collect personal identification details (names, emails, addresses).</li>
+                            <li>We do not monitor, log, or track your browsing history or web traffic.</li>
+                            <li>We do not process financial or payment data.</li>
+                            <li>We do not use analytics services or third-party tracking scripts inside the extension.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Permissions Explanation -->
+                    <div>
+                        <h3 class="text-base font-semibold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-key text-brand-500 mr-2"></i> Permissions Justification
+                        </h3>
+                        <p class="mb-3">To function as an image detector and downloader, Image Hunter requests the following minimal permissions in Chrome:</p>
+                        <div class="grid gap-3 sm:grid-cols-2">
+                            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200">
+                                <code class="text-xs font-bold text-brand-700">activeTab</code>
+                                <p class="text-xs text-slate-600 mt-1">Allows the extension to inspect the current open tab to locate image files when clicked.</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200">
+                                <code class="text-xs font-bold text-brand-700">scripting</code>
+                                <p class="text-xs text-slate-600 mt-1">Executes the local script required to extract image URLs from the DOM.</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200">
+                                <code class="text-xs font-bold text-brand-700">downloads</code>
+                                <p class="text-xs text-slate-600 mt-1">Enables saving selected image files directly to your device's download folder.</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200">
+                                <code class="text-xs font-bold text-brand-700">clipboardWrite</code>
+                                <p class="text-xs text-slate-600 mt-1">Allows copying image links directly to your clipboard upon user request.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third party sharing -->
+                    <div>
+                        <h3 class="text-base font-semibold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-share-nodes text-brand-500 mr-2"></i> Third-Party Sharing
+                        </h3>
+                        <p>
+                            Because we do not collect any data, no user data is ever sold, transferred, or disclosed to third parties under any circumstances.
+                        </p>
+                    </div>
+
+                    <!-- Changes & Contact -->
+                    <div class="pt-4 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                        <div>
+                            <h3 class="text-base font-semibold text-slate-900">Contact & Support</h3>
+                            <p class="text-xs text-slate-500">If you have questions about this policy, contact us via our official developer channel.</p>
+                        </div>
+                        <a href="mailto:shadow.apps.supp@outlook.com" class="text-xs font-semibold px-4 py-2 bg-brand-50 text-brand-600 rounded-lg hover:bg-brand-100 transition">
+                            Contact Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-8 mt-12">
+        <div class="max-w-5xl mx-auto px-4 text-center text-xs text-slate-500 space-y-2">
+            <p>&copy; 2026 Image Hunter Extension. All rights reserved.</p>
+            <p>Designed for Chrome Web Store compliance & user data protection.</p>
+            <p>Contact: <a href="mailto:shadow.apps.supp@outlook.com" class="hover:underline text-brand-600">shadow.apps.supp@outlook.com</a></p>
+        </div>
+    </footer>
+
+</body>
+</html> 
